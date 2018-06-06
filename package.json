@@ -1,0 +1,39 @@
+{
+  "name": "simple-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Webpack4 + ES6 + LESS + PostCSS Boilerplate",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack -p",
+    "dev": "./node_modules/.bin/webpack-dev-server -d --content-base dist --port 8091"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alterebro/simple-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "webpack",
+    "ES6",
+    "LESS",
+    "postCSS",
+    "autoprefixer",
+    "cssnano"
+  ],
+  "author": "Jorge Moreno aka moro, @alterebro (moro.es)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alterebro/simple-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/alterebro/simple-webpack-boilerplate#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jsonminify": "^0.4.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
